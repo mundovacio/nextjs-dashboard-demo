@@ -9,13 +9,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
-
         {children}
-
-        <footer className='py-10 flex justify-center items-center'>
-          Hecho con amor por la gente de Vercel
-        </footer>
-
       </body>
     </html>
   );
